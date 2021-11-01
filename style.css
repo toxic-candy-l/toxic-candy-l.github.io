@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient(to top, #86377b 20%, #27273c 80%);
+    height : auto;
+}
+
+.wrapper{
+    margin-top: 5vh;
+    width: 80%;
+    height: 100%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-bottom: 15vh;
+}
+
+.text {
+    width: 100%;
+    height: auto;
+    color : white;
+    word-wrap: initial;
+    font-size: 2vh;
+}
+
+.gallery{
+    margin-top: 10vh;
+    width : 100%;
+    height: auto;
+}
+
+.myimg{
+    width:80%;
+    height: auto;
+}
+
+img{
+    width: auto;
+}
