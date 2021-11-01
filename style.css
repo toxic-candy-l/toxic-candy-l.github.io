@@ -1,12 +1,18 @@
+@font-face {
+    font-family: myfont; /* Гарнитура шрифта */
+    src: url(font.ttf); /* Для IE5-8 */
+    src: url(font.ttf); /* Для остальных браузеров */
+   }
+
 body{
-    background: linear-gradient(to top, #86377b 20%, #27273c 80%);
-    height : auto;
+    background: linear-gradient(to top, #ee9ca7 20%, #ffdde1 80%);
+    height : 170vh;
 }
 
 .wrapper{
     margin-top: 5vh;
     width: 80%;
-    height: 100%;
+    height: auto;
     margin-left: 10vw;
     margin-right: 10vw;
     padding-bottom: 15vh;
@@ -15,9 +21,11 @@ body{
 .text {
     width: 100%;
     height: auto;
-    color : white;
+    color : black;
     word-wrap: initial;
     font-size: 2vh;
+    font-family: myfont;
+    font-weight: bold;
 }
 
 .gallery{
@@ -32,5 +40,15 @@ body{
 }
 
 img{
+    border-radius: 100px;
+    border : 5px solid black;
     width: auto;
+    height: auto;
+}
+
+h1{
+    font-family: myfont;
+    font-size: 4vh;
+    text-align: center;
+    padding-bottom: 1vh;
 }
